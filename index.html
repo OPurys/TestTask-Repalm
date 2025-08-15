@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repalm</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="/">Repalm</a>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="">Головна</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"
+              >Продукти<svg class="menu__icon" width="16" height="16">
+                <use href="./assets/sprite.svg#icon-arrow-down"></use></svg
+            ></a>
+            <ul class="submenu">
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Ноутбуки</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Телефони</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Планшети</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Аксесуари</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"
+              >Послуги
+              <svg class="menu__icon" width="16" height="16">
+                <use href="./assets/sprite.svg#icon-arrow-down"></use></svg
+            ></a>
+            <ul class="submenu">
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Доставка</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Гарантія</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Технічна підтримка</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item"><a class="menu__link" href="">Про нас</a></li>
+          <li class="menu__item"><a class="menu__link" href="">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="products">
+        <h1 class="visually-hidden">Repalm</h1>
+        <h2 class="visually-hidden">Products</h2>
+
+        <ul class="products-list">
+          <li class="products-list__item">
+            <img
+              class="products-list__image"
+              src="./assets/asus-vivobook-s15.jpg"
+              alt="Asus-vivobook-s15"
+              width="150"
+              height="150" />
+            <div class="products-list__wrapper">
+              <div class="products-list__inner">
+                <h3 class="products-list__title">Asus VivoBook s15</h3>
+                <p class="products-list__price">
+                  <span class="products-list__old-price">770₴</span>
+                  <span class="products-list__new-price">553₴</span>
+                </p>
+              </div>
+              <button class="products-list__btn" type="button">
+                <svg width="20" height="20">
+                  <use href="./assets/sprite.svg#icon-heart"></use>
+                </svg>
+              </button>
+            </div>
+            <p class="products-list__description">
+              ASUS Vivobook S 15 OLED змінює уявлення про сучасний ноутбук
+            </p>
+
+            <button class="btn" type="button">
+              Додати в кошик
+              <svg width="15" height="15">
+                <use href="./assets/sprite.svg#icon-add-to-cart"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
